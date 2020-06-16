@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Yekan';
+    src: url('./font/Yekan.woff2') format('woff2'), /* Modern Browsers */
+    url('./font/Yekan.woff') format('woff'), /* Modern Browsers */
+    url('./font/Yekan.otf') format('opentype'), /* Open Type Font */
+    url('./font/Yekan.ttf') format('truetype'); /* Safari, Android, iOS */
+    
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background: linear-gradient(to left, #ff0099, #493240);
+}
+header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+ 
+    text-align: center;
+}
+.header{
+    width: 20%;
+    margin-top: 30px;
+    background-color: rgb(224, 130, 185);
+    padding: 20px;
+    border-radius: 50%;
+    
+}
+.typingBox{
+    width: 100%;
+    height: 500px;
+    margin: 0;
+    /* display: flex;
+    justify-content: center; */
+
+}
+#speechtext{
+    background-color:  rgb(255, 255, 255);;
+    padding: 10px;
+    width: 739px;
+    height: 400px;
+    font-size: 1.2rem;
+    font-family: 'Yekan';
+    margin: 0px 0 50px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+    direction: rtl;
+}
+.icon{
+   background-color: rgb(255, 255, 255);
+   width: 759px;
+   display:flex;
+   justify-content: space-between;
+   border-top-right-radius: 10px;
+   border-top-left-radius:10px;
+   border-bottom-right-radius:0px;
+   border-bottom-left-radius: 0px;
+   margin-top: 15px;
+  
+}
+.ionicon{
+  font-size:36px;
+  padding-left:15px;
+  padding-top:7px ;
+}

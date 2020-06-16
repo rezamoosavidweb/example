@@ -1,0 +1,19 @@
+.zoom-lenz{
+width: 150px; 
+height: 150px;
+border: 1px solid red;
+position: absolute;
+}
+.imgebox{
+    width: 667px;
+    display: flex;
+    flex-direction: column;
+}
+.zoomresult{
+    width: 300px;
+    height: 300px;
+    border: 2px solid red;
+}
+.imge{
+    margin-bottom: 10px;
+}
